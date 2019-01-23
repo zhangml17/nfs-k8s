@@ -1,5 +1,5 @@
 # nfs-k8s
-deploy nfs on k8s
+利用NFS动态提供kubernetes后端存储卷
 
 现在有个问题是：
 
