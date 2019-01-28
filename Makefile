@@ -2,7 +2,7 @@ SHELL=/bin/bash
 SCRIPTS=./auth
 MANIFEST=./manifest
 
-all: deploy
+all:  deploy
 
 deploy: export  OP=create
 deploy:
