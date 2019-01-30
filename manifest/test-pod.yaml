@@ -10,7 +10,7 @@ spec:
       - "/bin/sh"
     args:
       - "-c"
-      - "echo 'hello pv' > /data"
+      - "echo 'hello pv' > /data/hello"
     volumeMounts:
       - name: nfs-pvc
         mountPath: "/data"
