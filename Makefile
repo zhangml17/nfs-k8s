@@ -2,7 +2,10 @@ SHELL=/bin/bash
 SCRIPTS=./auth
 MANIFEST=./manifest
 
-all: deploy
+all:  install  deploy
+
+install:
+	@./install_nfs_utils.sh
 
 deploy: export  OP=create
 deploy:
